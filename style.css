@@ -1,0 +1,87 @@
+body {
+    margin: auto;
+}
+
+.parent {
+    margin: auto;
+    padding: 40px;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.leftSide {
+    width: 300px;
+    height: 1010px;
+    margin-left: 200px;
+    background-color: rgb(129, 161, 72);
+    margin: 150px;
+    border:3px solid black;
+    border-right-color:None;
+    float: left;
+    margin-right: 0px;
+    margin-left:220px;
+}
+
+h2{
+    box-sizing: border-box;
+    margin: 20px;
+    text-align: center;
+    border: 2px rgb(84, 40, 40) solid;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: blanchedalmond 0px 0px 20px, blanchedalmond 0px 6px 6px;
+    }
+p{
+    text-align: justify;
+    font-size: 18px;
+    margin: 8px;
+    margin-top:25px;
+    letter-spacing:1px;
+}
+#certification{
+    margin-top: 50px;
+}
+ol li{
+    text-align: center;
+    margin:10px;
+}
+.rightside{
+    width:600px;
+    height:1010px;
+    border: 2px black solid;
+    float: left;
+    margin-top:150px;
+    background-color: bisque;
+}
+#Personal{
+    box-shadow:  rgb(167, 201, 110) 0px 0px 20px,  rgb(134, 155, 98) 0px 6px 6px; 
+    margin-top: 50px;
+}
+ul li{
+    padding-top:5px;
+    font-size: 23px;
+    letter-spacing: 1px;
+    list-style:decimal;
+    margin-left: 50px;
+    font-weight: 500;
+    margin-top:10px;
+}
+#Qualification{
+    margin-top:50px;
+    box-shadow:  rgb(167, 201, 110) 0px 0px 20px,  rgb(134, 155, 98) 0px 6px 6px;
+}
+#skills1{
+    margin-top:30px;
+    box-shadow:  rgb(167, 201, 110) 0px 0px 20px,  rgb(134, 155, 98) 0px 6px 6px;   
+}
+button{
+    background-color: darkkhaki;
+    margin-left: 60px ;
+    margin-bottom: 70px;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight:900;
+}
