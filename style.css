@@ -105,14 +105,11 @@ p{
 }
 ol li{
    font-size:9px;
-  
-}
-
-
+  }
 img{
     width:70%;
     height:20%;
-    margin:10px;
+    margin:0px;
 }
 h2{
     font-size:17px;
