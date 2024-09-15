@@ -90,7 +90,7 @@ button{
 @media screen and (max-width:468px) {
     .leftSide{
        margin-left: 0px;
-       width:220px;
+       width:150px;
        height:auto;
     }
 .rightside{
