@@ -4,26 +4,26 @@ body {
 
 
 .parent {
-    border:10px black double;
+    border: 10px black double;
     margin: auto;
-    width:910px;
+    width: 910px;
     height: auto;
     float: left;
 }
 
 .leftSide {
     width: 300px;
-   height: auto;
+    height: auto;
     background-color: rgb(129, 161, 72);
-    border:3px solid black;
-    border-right-color:None;
+    border: 3px solid black;
+    border-right-color: None;
     float: left;
     margin-right: 0px;
     margin: auto;
-  
+
 }
 
-h2{
+h2 {
     box-sizing: border-box;
     margin: 20px;
     text-align: center;
@@ -33,97 +33,110 @@ h2{
     background-color: white;
     border-radius: 10px;
     box-shadow: blanchedalmond 0px 0px 20px, blanchedalmond 0px 6px 6px;
-    }
-p{
+}
+
+p {
     text-align: justify;
     font-size: 18px;
     margin: 8px;
-    margin-top:25px;
-    letter-spacing:1px;
+    margin-top: 25px;
+    letter-spacing: 1px;
 }
-#certification{
+
+#certification {
     margin-top: 50px;
 }
 
-.rightside{
-    width:600px;
-    height:1105px;
+.rightside {
+    width: 600px;
+    height: 1105px;
     border: 2px black solid;
     float: left;
-    margin-top:0px;
+    margin-top: 0px;
     background-color: bisque;
     margin: auto;
 }
-#Personal{
-    box-shadow:  rgb(167, 201, 110) 0px 0px 20px,  rgb(134, 155, 98) 0px 6px 6px; 
+
+#Personal {
+    box-shadow: rgb(167, 201, 110) 0px 0px 20px, rgb(134, 155, 98) 0px 6px 6px;
     margin-top: 50px;
 }
-ul li{
-    padding-top:5px;
+
+ul li {
+    padding-top: 5px;
     font-size: 23px;
     letter-spacing: 1px;
-    list-style:decimal;
+    list-style: decimal;
     margin-left: 50px;
     font-weight: 500;
-    margin-top:10px;
+    margin-top: 10px;
 }
-#Qualification{
-    margin-top:50px;
-    box-shadow:  rgb(167, 201, 110) 0px 0px 20px,  rgb(134, 155, 98) 0px 6px 6px;
+
+#Qualification {
+    margin-top: 50px;
+    box-shadow: rgb(167, 201, 110) 0px 0px 20px, rgb(134, 155, 98) 0px 6px 6px;
 }
-#skills1{
-    margin-top:30px;
-    box-shadow:  rgb(167, 201, 110) 0px 0px 20px,  rgb(134, 155, 98) 0px 6px 6px;   
+
+#skills1 {
+    margin-top: 30px;
+    box-shadow: rgb(167, 201, 110) 0px 0px 20px, rgb(134, 155, 98) 0px 6px 6px;
 }
-button{
+
+button {
     background-color: darkkhaki;
-    margin-left: 60px ;
+    margin-left: 60px;
     margin-bottom: 70px;
     border-radius: 20px;
     padding: 10px;
-    font-weight:900;
+    font-weight: 900;
 }
+
 @media screen and (max-width:478px) {
-    .leftSide{
-      
-       width:150px;
-       height:700px;
-     
+    .rightside {
+        width: 200px;
+        height: 800px;
+        border-left-color: none;
     }
-.rightside{
-    width:200px;
-    height:800px;
-    border-left-color: none;
-    
-}
-.parent{
-    width:auto;
-    
-}
-p{
-    font-size: 8px;
-}
-ol li{
-   font-size:9px;
-  }
-img{
-    width:70%;
-    height:20%;
-    margin:0px;
-}
-h2{
-    font-size:17px;
-}
-.rightside{
-    width:225px;
-    height:700px;
-}
-ul li{
-    font-size: 8px;
-    margin-left: 0px;
-}
-button{
-    margin-left:20px;
-}
-}
+    .leftSide {
+        width: 150px;
+        height: 700px;
+    }
  
+    .parent {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+    ol li {
+        font-size: 9px;
+    }
+
+    img {
+        width: 70%;
+        height: 20%;
+        margin: 0px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    .rightside {
+        width: 225px;
+        height: 700px;
+    }
+
+    ul li {
+        font-size: 8px;
+        margin-left: 0px;
+    }
+
+    button {
+        margin-left: 20px;
+    }
+}
