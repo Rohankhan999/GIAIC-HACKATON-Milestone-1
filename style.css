@@ -103,8 +103,9 @@ button{
 p{
     font-size: 8px;
 }
-ol ul li{
-    font-size: 5px;
+ol li{
+    font-size: 8px;
+    text-align: left;
 }
 img{
     width:70%;
