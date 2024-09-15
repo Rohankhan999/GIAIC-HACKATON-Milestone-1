@@ -100,5 +100,11 @@ button{
 .parent{
     width:auto;
 }
+p{
+    font-size: 5px;
+}
+ol ul li{
+    font-size: 5px;
+}
 }
  
