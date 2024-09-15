@@ -90,14 +90,17 @@ button{
        margin-left: 0px;
        width:150px;
        height:auto;
+       float: left;
     }
 .rightside{
     width:410px;
     height:1200px;
     border-left-color: none;
+    float: left;
 }
 .parent{
     width:auto;
+    float: left;
 }
 p{
     font-size: 8px;
