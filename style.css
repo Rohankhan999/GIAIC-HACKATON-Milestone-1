@@ -87,14 +87,14 @@ button{
     padding: 10px;
     font-weight:900;
 }
-@media screen and (max-width:468px) {
+@media screen and (max-width:478px) {
     .leftSide{
        margin-left: 0px;
        width:150px;
        height:auto;
     }
 .rightside{
-    width:400px;
+    width:405px;
     height: auto;
 }
 .parent{
@@ -124,6 +124,9 @@ h2{
 ul li{
     font-size: 8px;
     margin-left: 0px;
+}
+button{
+    margin-left:20px;
 }
 }
  
