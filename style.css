@@ -87,18 +87,18 @@ button{
     .leftSide{
       
        width:150px;
-       height:800px;
-       float: left;
+       height:700px;
+     
     }
 .rightside{
-    width:300px;
+    width:200px;
     height:800px;
     border-left-color: none;
-    float: left;
+    
 }
 .parent{
     width:auto;
-    float: left;
+    
 }
 p{
     font-size: 8px;
