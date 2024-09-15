@@ -104,9 +104,11 @@ p{
     font-size: 8px;
 }
 ol li{
-    font-size: 8px;
-    text-align: left;
+   font-size:9px;
+  
 }
+
+
 img{
     width:70%;
     height:20%;
@@ -114,6 +116,13 @@ img{
 }
 h2{
     font-size:17px;
+}
+.rightside{
+    width:250px;
+    height:700px;
+}
+ul li{
+    font-size: 8px;
 }
 }
  
