@@ -6,6 +6,7 @@ body {
 .parent {
     /* margin-left:350px; */
     /* padding: 40px; */
+    margin: auto ;
     width:910PX;
     height: auto;
     float: left;
@@ -19,6 +20,7 @@ body {
     border-right-color:None;
     float: left;
     margin-right: 0px;
+    margin: auto;
   
 }
 
@@ -54,6 +56,7 @@ ol li{
     float: left;
     margin-top:0px;
     background-color: bisque;
+    margin: auto;
 }
 #Personal{
     box-shadow:  rgb(167, 201, 110) 0px 0px 20px,  rgb(134, 155, 98) 0px 6px 6px; 
